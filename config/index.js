@@ -82,7 +82,7 @@ export const config = {
       // 一般都填自己
       name: "五仁月饼",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ohx12OO6VskYv03Kuf43ywIZVRM4puXhk",
+      id: "o2dVB58lSeccsWq24LT1lL5o64SE",
     }, 
   ],
     
@@ -105,12 +105,12 @@ export const config = {
    * 生日时，name填写想要展示的名字，你可以填“美丽可爱亲亲老婆”
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
-//   FESTIVALS: [
-//     {"type": "生日", "name": "老婆", "year": "1996", "date": "09-02"},
-//     {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-//     {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-//     {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
-//   ],
+  FESTIVALS: [
+    {"type": "生日", "name": "老婆", "year": "1996", "date": "09-02"},
+    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
+    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+  ],
 
   /**
    * 限制重要节日的展示条目, 需要填写数字; 
