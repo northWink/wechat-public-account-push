@@ -24,7 +24,7 @@ export const config = {
    *    // 你想对他发送的模板消息的模板ID
    *    useTemplateId: "ux9HKe0e5cz7Ln5sVMYwpCVs_okSeIngAFihPdlrN3Y",
    *    // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-   *    openUrl: "https://wangxinleo.cn"
+   *    openUrl: "https://baidu.com"
    *   }, 
    * ]
    */
@@ -46,10 +46,10 @@ export const config = {
     {
       name: "妹妹", 
       id: "o2dVB58D5X-HdBDaApDZvd5738-Q",
-      useTemplateId: "",
+      useTemplateId: "ux9HKe0e5cz7Ln5sVMYwpCVs_okSeIngAFihPdlrN3Y",
       province: "安徽",
       city: "合肥",
-      openUrl: "https://wangxinleo.cn"
+      openUrl: "https://baidu.com"
     }, 
 //     {
 //       name: "老婆2",
@@ -74,7 +74,7 @@ export const config = {
    */
 
   // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "zjV1glIuCXo4Csr23aXWEio1iP74sZJ7IQEES95lDsg6c4yOU",
+  CALLBACK_TEMPLATE_ID: "z34z_2kxVN22enUDjb2WaeQvrzZARd0UFk2I6M7sNHA",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -106,10 +106,9 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "老婆", "year": "1996", "date": "09-02"},
-    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+    {"type": "节日", "name": "中秋节-吃月饼", "year": "2022", "date": "09-10"},
+    {"type": "节日", "name": "国庆节-连休七天的日子", "year": "2022", "date": "10-01"},
+    {"type": "节日", "name": "春节-新的一年", "year": "2023", "date": "01-23"},
   ],
 
   /**
@@ -117,7 +116,7 @@ export const config = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 4,
+  FESTIVALS_LIMIT: 0,
 
   /** 日期相关 */
 
@@ -131,7 +130,7 @@ export const config = {
 //     // 结婚纪念日
 //     {"keyword": "marry_day", date: "2020-01-04"},
     // 退伍日, 不用可以删掉
-    {"keyword": "ex_day", date: "2022-08-31"},
+//     {"keyword": "ex_day", date: "2022-08-31"},
     // sakana日
     // {"keyword": "sakana_day", date: "2022-01-06"},
     // ... 
